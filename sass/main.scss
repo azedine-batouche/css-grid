@@ -1,12 +1,19 @@
+@import './utils/variables';
 @import './base/reset';
 @import './base/typography';
 
-@import './utils/variables';
 @import './utils/mixins';
 @import './utils/functions';
 
 @import './layout/header';
 @import './layout/navigation';
 @import './layout/footer';
+@import './layout/sidebar';
 
 @import './pages/home';
+@import './pages/features';
+
+@import './components/gallery';
+@import './components/story';
+@import './components/realtors';
+@import './components/feature';
