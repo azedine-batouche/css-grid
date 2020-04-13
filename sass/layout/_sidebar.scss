@@ -36,6 +36,7 @@
     &::after {
       transform: translateY(1.3rem);
     }
+
     @include respond(tab-port) {
       margin-top: 0;
       margin-right: 2rem;
@@ -47,5 +48,6 @@
         transform: translateY(1rem);
       }
     }
+
   }
 }
