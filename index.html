@@ -1,13 +1,425 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paris immobilier</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <h1>Paris IMMOBILIER</h1>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Paris-immobilier est une agence qui sera trouver pour vous le lieu de vie idéale, un havre de paie idilique"
+    />
+    <title>Paris immobilier –– la maison de vos rêves se trouve ici.</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,400&family=Nunito:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+<link rel="manifest" href="./img/site.webmanifest">
+<link rel="mask-icon" href="./img/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="./img/favicon.ico">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-config" content="./img/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+  </head>
+  <body class="container">
+    <div class="sidebar"> 
+      <button class="sidebar__btn"></button>
+    </div>
+    <header class="header">
+      <img src="./img/logo.png" alt="logo" class="header__logo">
+      <h3 class="heading-3">Votre propre propriété:</h3>
+      <h1 class="heading-1">la liberté personnelle ultime</h1>
+      <button class="btn header__btn">Découvrez notre catalogue</button>
+      <div class="header__partenars--text">Il parle de nous</div>
+      <div class="header__partenars--logo">
+        <img src="./img/logo-bbc.png" alt="partenars">
+        <img src="./img/logo-bi.png" alt="partenars">
+        <img src="./img/logo-forbes.png" alt="partenars">
+        <img src="./img/logo-techcrunch.png" alt="partenars">
+      </div>
+    </header>
+    <div class="realtors">
+      <h3 class="heading-3">Top 3 agent immobbilier</h3>
+      <div class="realtors__list">
+        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  class="realtors__img">
+        <div class="realtors__details">
+          <h4 class="heading-4 heading-4--light">John Smith</h4>
+          <p class="realtors__text">250 ventes actifs</p>
+        </div>
+        <img src="https://images.pexels.com/photos/458766/pexels-photo-458766.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"  class="realtors__img">
+        <div class="realtors__details">
+          <h4 class="heading-4 heading-4--light">Sara Woods</h4>
+          <p class="realtors__text">209 ventes actifs</p>
+        </div>
+        <img src="https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  class="realtors__img">
+        <div class="realtors__details">
+          <h4 class="heading-4 heading-4--light">Kelly nike</h4>
+          <p class="realtors__text">187 ventes actifs</p>
+        </div>
+      </div>
+    </div>
+    <section class="features">
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="./img/sprite.svg#icon-global">
+        </svg>
+        <h4 class="heading-4 heading-4--dark mb-sm ">
+          Top classment
+        </h4>
+        <p class="feature__text">un classement des maisons les plus visités sur note site </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="./img/sprite.svg#icon-trophy">
+        </svg>
+        <h4 class="heading-4 heading-4--dark mb-sm ">
+          Notre selection 
+        </h4>
+        <p class="feature__text">une selection unique des propriétés seléctioner par nos propres soins</p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="./img/sprite.svg#icon-map-pin">
+        </svg>
+        <h4 class="heading-4 heading-4--dark mb-sm ">
+          Emplacement Idéale
+        </h4>
+        <p class="feature__text">Nous disposons d'une large catégorie de propriété dans divers départements </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="./img/sprite.svg#icon-key">
+        </svg>
+        <h4 class="heading-4 heading-4--dark mb-sm ">
+          Un weekend de rêve
+        </h4>
+        <p class="feature__text">Passer un weekend de rêve avec l'une de nous propriété</p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="./img/sprite.svg#icon-presentation">
+        </svg>
+        <h4 class="heading-4 heading-4--dark mb-sm ">
+          Nos agents  
+        </h4>
+        <p class="feature__text">Les agents de Paris-Immobilier sont à votre écoute pour vous accompagnez durant la recherche de votre bien ultime </p>
+      </div>
+      <div class="feature">
+        <svg class="feature__icon">
+          <use xlink:href="./img/sprite.svg#icon-lock">
+        </svg>
+        <h4 class="heading-4 heading-4--dark mb-sm ">
+         Payement sécurisé 
+        </h4>
+        <p class="feature__text">Nous disposons d'un systeme de sécurité de payment fiable et garantie</p>
+      </div>
+    </section>
+    <div class="story__picture">
+      <img src="https://images.pexels.com/photos/1024960/pexels-photo-1024960.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Couple with new house" class="story__img--1">
+      <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="New house" class="story__img--2">
+    </div>
+    <div class="story__content">
+      <h3 class="heading-3 mb-sm ">Clients satisfaits</h3>
+      <h2 class="heading-2 heading-2--dark mb-sm ">&ldquo; Une décision majeur dans votre vie &rdquo;</h2>
+      <p class="story__text">Paris Immobilier se charge de vous accompagnez, trouvez et finalisez votre havre de paie</p>
+      <button class="btn">Trouver votre bonheur</button>
+    </div>
+    <div class="home">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="house" class="card__img">
+         <svg class="card__like">
+          <use xlink:href="./img/sprite.svg#icon-heart-full">
+        </svg>
+        <h5 class="card__name">MAISON MODERNE</h5>
+        <div class="card__details">
+
+          <div class="card__details--home">
+            <svg class="card__details--icon">
+           <use xlink:href="./img/sprite.svg#icon-map-pin">
+         </svg>
+         <p>FRANCE</p>
+          </div>
+
+          <div class="card__details--rooms">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-profile-male">
+            </svg>
+            <p>5 Chambres</p>
+          </div>
+
+          <div class="card__details--area">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-expand">
+            </svg>
+            <p>350m <sup>2</sup></p>
+          </div>
+
+          <div class="card__details--price">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-key">
+            </svg>
+            <p>1.500.000€</p>
+          </div>
+          <button class="card__details--btn">Contactez nous</button>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/2155202/pexels-photo-2155202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="house" class="card__img">
+         <svg class="card__like">
+          <use xlink:href="./img/sprite.svg#icon-heart-full">
+        </svg>
+        <h5 class="card__name">MAISON FAMILLIALE</h5>
+        <div class="card__details">
+
+          <div class="card__details--home">
+            <svg class="card__details--icon">
+           <use xlink:href="./img/sprite.svg#icon-map-pin">
+         </svg>
+         <p>FRANCE</p>
+          </div>
+
+          <div class="card__details--rooms">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-profile-male">
+            </svg>
+            <p>6 Chambres</p>
+          </div>
+
+          <div class="card__details--area">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-expand">
+            </svg>
+            <p>300m <sup>2</sup></p>
+          </div>
+
+          <div class="card__details--price">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-key">
+            </svg>
+            <p>700.000€</p>
+          </div>
+          <button class="card__details--btn">Contactez nous</button>
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/449461/pexels-photo-449461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="house" class="card__img">
+         <svg class="card__like">
+          <use xlink:href="./img/sprite.svg#icon-heart-full">
+        </svg>
+        <h5 class="card__name">MAISON ATIPIQUE</h5>
+        <div class="card__details">
+
+          <div class="card__details--home">
+            <svg class="card__details--icon">
+           <use xlink:href="./img/sprite.svg#icon-map-pin">
+         </svg>
+         <p>FRANCE</p>
+          </div>
+
+          <div class="card__details--rooms">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-profile-male">
+            </svg>
+            <p>4 Chambres</p>
+          </div>
+
+          <div class="card__details--area">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-expand">
+            </svg>
+            <p>280m <sup>2</sup></p>
+          </div>
+
+          <div class="card__details--price">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-key">
+            </svg>
+            <p>1.300.000€</p>
+          </div>
+          <button class="card__details--btn">Contactez nous</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="house" class="card__img">
+         <svg class="card__like">
+          <use xlink:href="./img/sprite.svg#icon-heart-full">
+        </svg>
+        <h5 class="card__name">Villa contemporaine</h5>
+        <div class="card__details">
+
+          <div class="card__details--home">
+            <svg class="card__details--icon">
+           <use xlink:href="./img/sprite.svg#icon-map-pin">
+         </svg>
+         <p>FRANCE</p>
+          </div>
+
+          <div class="card__details--rooms">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-profile-male">
+            </svg>
+            <p>7 Chambres</p>
+          </div>
+
+          <div class="card__details--area">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-expand">
+            </svg>
+            <p>550m <sup>2</sup></p>
+          </div>
+
+          <div class="card__details--price">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-key">
+            </svg>
+            <p>3.800.000€</p>
+          </div>
+          <button class="card__details--btn">Contactez nous</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/1732414/pexels-photo-1732414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="house" class="card__img">
+         <svg class="card__like">
+          <use xlink:href="./img/sprite.svg#icon-heart-full">
+        </svg>
+        <h5 class="card__name">MAISON unique</h5>
+        <div class="card__details">
+
+          <div class="card__details--home">
+            <svg class="card__details--icon">
+           <use xlink:href="./img/sprite.svg#icon-map-pin">
+         </svg>
+         <p>FRANCE</p>
+          </div>
+
+          <div class="card__details--rooms">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-profile-male">
+            </svg>
+            <p>5 Chambres</p>
+          </div>
+
+          <div class="card__details--area">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-expand">
+            </svg>
+            <p>350m <sup>2</sup></p>
+          </div>
+
+          <div class="card__details--price">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-key">
+            </svg>
+            <p>2.000.000€</p>
+          </div>
+          <button class="card__details--btn">Contactez nous</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://images.pexels.com/photos/242246/pexels-photo-242246.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="house" class="card__img">
+         <svg class="card__like">
+          <use xlink:href="./img/sprite.svg#icon-heart-full">
+        </svg>
+        <h5 class="card__name">Château</h5>
+        <div class="card__details">
+
+          <div class="card__details--home">
+            <svg class="card__details--icon">
+           <use xlink:href="./img/sprite.svg#icon-map-pin">
+         </svg>
+         <p>FRANCE</p>
+          </div>
+
+          <div class="card__details--rooms">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-profile-male">
+            </svg>
+            <p>9 Chambres</p>
+          </div>
+
+          <div class="card__details--area">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-expand">
+            </svg>
+            <p>850m <sup>2</sup></p>
+          </div>
+
+          <div class="card__details--price">
+            <svg class="card__details--icon">
+              <use xlink:href="./img/sprite.svg#icon-key">
+            </svg>
+            <p>5.500.000€</p>
+          </div>
+          <button class="card__details--btn">Contactez nous</button>
+        </div>
+      </div>
+     
+    </div>
+    <div class="gallery">
+      <figure class="gallery__item gallery__item--1">
+        <img src="https://images.pexels.com/photos/53610/large-home-residential-house-architecture-53610.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 1" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--2">        
+        <img src="https://images.pexels.com/photos/534151/pexels-photo-534151.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 2" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--3">
+        <img src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 3" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--4">
+        <img src="https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 4" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--5">
+        <img src="https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 5" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--6">
+        <img src="https://images.pexels.com/photos/2446036/pexels-photo-2446036.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 6" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--7">
+        <img src="https://images.pexels.com/photos/2224956/pexels-photo-2224956.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 7" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--8">
+        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 8" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--9">
+        <img src="https://images.pexels.com/photos/1172064/pexels-photo-1172064.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 9" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--10">
+        <img src="https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 10" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--11">
+        <img src="https://images.pexels.com/photos/462205/pexels-photo-462205.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 11" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--12">
+        <img src="https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 12" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--13">
+        <img src="https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 13" class="gallery__img">
+      </figure>
+      <figure class="gallery__item gallery__item--14">
+        <img src="https://images.pexels.com/photos/276554/pexels-photo-276554.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="Gallery image 14" class="gallery__img">
+      </figure>
+
+    </div>
+    <footer class="footer">
+      <ul class="nav">
+        <li class="nav__item"><a href="#" class="nav__link">Accueil</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">A propos</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Planifier une visite</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Paris-immo blog</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Nos Carrières</a></li>
+      </ul>
+      <p class="footer__copyright">
+        &copy;Copyright 2020 by Paris-Immobilier
+      </p>
+    </footer>
+  </body>
 </html>

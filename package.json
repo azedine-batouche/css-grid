@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js",
-    "sass-watch": "node-sass sass/main.scss css/style.css -w",
-    "live-server": "live-server",
-    "start": "npm-run-all --parallel sass-watch live-server",
+    "watch-sass": "node-sass sass/main.scss  css/style.css -w ",
+    "dev-server": "live-server --browser=firefox",
+    "start": "npm-run-all --parallel dev-server watch-sass ",
     "sass-compile": "node-sass sass/main.scss css/style.compile.css",
     "css-prefix": "postcss -use autoprefixer -b 'last 10 versions' css/style.comp.css -o css/style.prefix.css ",
     "css-compress": "node-sass css/style.prefix.css css/style.css --output-style compressed",
