@@ -13,20 +13,20 @@ This project using html, saas, node (css grid, BEM, 7-1, etc.. ) to get a websit
 
 # Demo
 
-To get the demo click of the website click here : [Paris-Immobilier](https://batouche-dev.github.io/advanced-css/) .
+To get the demo click of the website click here : [Paris-Immobilier](https://batouche-dev.github.io/css-grid/) .
 
 # Setup
 
 first clone the project in your workspace with this command line
 
 ```
-git clone https://github.com/batouche-dev/advanced-css.git
+git clone https://github.com/batouche-dev/css-grid.git
 ```
 
 # Launch
 
 ```
-cd advanced-css
+cd css-grid
 ```
 
 and then open index.html file with any browser: chrome, firefox, safari ...
