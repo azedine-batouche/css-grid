@@ -1,7 +1,9 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
 
 html {
   box-sizing: border-box;
@@ -69,8 +71,11 @@ body {
   grid-row: 1/-1; }
 
 .home {
-  background-color: #101d2c;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 7rem; }
 
 .features {
   grid-column: center-start / center-end;
@@ -150,4 +155,64 @@ body {
   .btn:hover {
     background-color: #b28451; }
 
-
+.card {
+  background-color: #f9f7f6;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  position: relative;
+  text-align: center; }
+  .card__img {
+    grid-row: 1/2;
+    width: 100%;
+    overflow: hidden;
+    grid-column: 1/-1; }
+  .card__like {
+    width: 3.5rem;
+    height: 3.5rem;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    fill: #c69963; }
+  .card__name {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    z-index: 4;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Josefin sans", sans-serif;
+    padding: 1.25rem;
+    background-color: #101d2c;
+    color: #fff;
+    font-weight: 400;
+    width: 80%;
+    justify-self: center;
+    align-self: end;
+    transform: translateY(50%); }
+  .card__details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    margin-top: 1rem;
+    grid-column: 1/-1;
+    gap: 3rem 0;
+    font-size: 1.5rem; }
+    .card__details--btn {
+      grid-column: 1/-1;
+      padding: 2rem;
+      background-color: #c69963;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: all 0.2s; }
+      .card__details--btn:hover {
+        background-color: #b28451; }
+    .card__details--icon {
+      width: 2rem;
+      height: 2rem;
+      fill: #c69963;
+      margin-right: 1rem; }
+    .card__details--home, .card__details--area, .card__details--rooms, .card__details--price {
+      display: flex;
+      justify-content: center; }
